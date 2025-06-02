@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background: #f4f4f4;
+  color: #333;
+}
+header {
+  background: #111;
+  color: white;
+  padding: 1rem 2rem;
+  z-index: 1000;
+  position: sticky;
+  top: 0;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+}
+nav ul li {
+  margin-left: 20px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+.hero {
+  padding-top: 120px;
+  background: #333;
+  color: white;
+  padding: 5rem 2rem;
+  text-align: center;
+}
+.hero .btn {
+  margin-top: 20px;
+  display: inline-block;
+  padding: 10px 20px;
+  background: #0077cc;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+section {
+  padding: 3rem 2rem;
+}
+#projects .project-card {
+  background: white;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+#contact form {
+  display: flex;
+  flex-direction: column;
+}
+#contact input,
+#contact textarea {
+  margin-bottom: 1rem;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+#contact button {
+  padding: 10px;
+  background: #0077cc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #111;
+  color: white;
+}
+
+#experience, #skills {
+  background: #fff;
+  border-radius: 8px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.experience-item {
+  margin-bottom: 1.5rem;
+}
+
+.experience-item h3 {
+  margin-bottom: 0.2rem;
+}
+
+.skills-list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 10px;
+  padding: 0;
+}
+
+.skills-list li {
+  background: #0077cc;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#certifications {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  margin-bottom: 2rem;
+}
+
+.certifications-list {
+  list-style: none;
+  padding: 0;
+}
+
+.certifications-list li {
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+.certifications-list a {
+  color: #0077cc;
+  text-decoration: underline;
+}
+
+#achievements {
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+}
+
+#achievements ul {
+  list-style-type: disc;
+  max-width: 800px;
+ 
+  padding-left: 40px;
+}
+
+#achievements li {
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+
